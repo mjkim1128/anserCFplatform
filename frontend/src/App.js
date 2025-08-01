@@ -1,7 +1,5 @@
 import { useState } from "react";
 
-const expressLayout=require('express-ejs-layouts');
-
 export default function OCRPage() {
   const [file, setFile] = useState(null);
   const [result, setResult] = useState(null);
